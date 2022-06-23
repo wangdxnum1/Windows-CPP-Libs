@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unone", "unone\unone.vcxproj", "{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unone-tool", "unone-tool\unone-tool.vcxproj", "{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9} = {658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		v142-dynamic-debug|x64 = v142-dynamic-debug|x64
+		v142-dynamic-debug|x86 = v142-dynamic-debug|x86
+		v142-dynamic-debug-dll|x64 = v142-dynamic-debug-dll|x64
+		v142-dynamic-debug-dll|x86 = v142-dynamic-debug-dll|x86
+		v142-dynamic-release|x64 = v142-dynamic-release|x64
+		v142-dynamic-release|x86 = v142-dynamic-release|x86
+		v142-dynamic-release-dll|x64 = v142-dynamic-release-dll|x64
+		v142-dynamic-release-dll|x86 = v142-dynamic-release-dll|x86
+		v142-static-debug|x64 = v142-static-debug|x64
+		v142-static-debug|x86 = v142-static-debug|x86
+		v142-static-release|x64 = v142-static-release|x64
+		v142-static-release|x86 = v142-static-release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug|x64.ActiveCfg = v142-dynamic-debug|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug|x64.Build.0 = v142-dynamic-debug|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug|x86.ActiveCfg = v142-dynamic-debug|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug|x86.Build.0 = v142-dynamic-debug|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug-dll|x64.ActiveCfg = v142-dynamic-debug-dll|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug-dll|x64.Build.0 = v142-dynamic-debug-dll|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug-dll|x86.ActiveCfg = v142-dynamic-debug-dll|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-debug-dll|x86.Build.0 = v142-dynamic-debug-dll|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release|x64.ActiveCfg = v142-dynamic-release|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release|x64.Build.0 = v142-dynamic-release|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release|x86.ActiveCfg = v142-static-release|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release|x86.Build.0 = v142-static-release|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release-dll|x64.ActiveCfg = v142-dynamic-release-dll|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release-dll|x64.Build.0 = v142-dynamic-release-dll|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release-dll|x86.ActiveCfg = v142-dynamic-release-dll|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-dynamic-release-dll|x86.Build.0 = v142-dynamic-release-dll|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-debug|x64.ActiveCfg = v142-static-debug|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-debug|x64.Build.0 = v142-static-debug|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-debug|x86.ActiveCfg = v142-static-debug|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-debug|x86.Build.0 = v142-static-debug|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-release|x64.ActiveCfg = v142-static-release|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-release|x64.Build.0 = v142-static-release|x64
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-release|x86.ActiveCfg = v142-static-release|Win32
+		{658AB9A2-3EC1-4FFA-AD37-6EB940645BF9}.v142-static-release|x86.Build.0 = v142-static-release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug|x64.ActiveCfg = Debug|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug|x64.Build.0 = Debug|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug|x86.ActiveCfg = Debug|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug|x86.Build.0 = Debug|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug-dll|x64.ActiveCfg = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug-dll|x64.Build.0 = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug-dll|x86.ActiveCfg = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-debug-dll|x86.Build.0 = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release|x64.ActiveCfg = Release|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release|x64.Build.0 = Release|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release|x86.ActiveCfg = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release|x86.Build.0 = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release-dll|x64.ActiveCfg = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release-dll|x64.Build.0 = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release-dll|x86.ActiveCfg = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-dynamic-release-dll|x86.Build.0 = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-debug|x64.ActiveCfg = Debug|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-debug|x64.Build.0 = Debug|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-debug|x86.ActiveCfg = Debug|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-debug|x86.Build.0 = Debug|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-release|x64.ActiveCfg = Release|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-release|x64.Build.0 = Release|x64
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-release|x86.ActiveCfg = Release|Win32
+		{B2536E8F-3AFF-493F-8AB0-148FF2852EDA}.v142-static-release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B25FDCD1-E514-463C-9023-1442BAB2F496}
+	EndGlobalSection
+EndGlobal

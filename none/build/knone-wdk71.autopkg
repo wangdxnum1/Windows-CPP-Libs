@@ -1,0 +1,50 @@
+nuget {    
+    nuspec {
+        id = knone-wdk71;
+        version : 1.0.1;
+        title: knone-wdk71;
+        authors: BlackINT3;
+        owners: BlackINT3;
+        licenseUrl: "https://github.com/BlackINT3/none";
+        projectUrl: "https://github.com/BlackINT3/none";
+        iconUrl: "https://github.com/BlackINT3/none";
+        requireLicenseAcceptance:false;
+        summary: nothing;
+        description: "nothing";
+        releaseNotes: "nothing";
+        copyright: BlackINT3;
+        tags: {KNONE, Windows};
+    }
+    
+    files {
+  
+        #defines {
+            root = .\knone;
+        };
+        
+        include: { 
+            ${root}\**\*.h;
+        };
+        
+        [Win32,Debug,dynamic] {
+            lib: {
+                ${root}\knone-Debug32.lib
+            };
+        }
+        [Win32,Release,dynamic] {
+            lib: {
+                ${root}\knone-Release32.lib
+            };
+        }
+        [x64,Debug,dynamic] {
+            lib: {
+                ${root}\knone-Debug64.lib
+            };
+        }
+        [x64,Release,dynamic] {
+            lib: {
+                ${root}\knone-Release64.lib
+            };
+        }
+    }
+}
